@@ -1,0 +1,51 @@
+body {
+    margin-top: 56px;
+}
+#navtop {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+#bio-text {
+    height: 196px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.list-group {
+    margin-top: 50px;
+    margin-right: 0px;
+}
+#bio > h1 {
+    border-bottom: lightgray 2px solid;
+    padding-bottom: 20px;
+    font-family: Impact;
+    width: 40%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+#profile-pic {
+    margin: 10px 100px 50px;
+    border: 2px solid rgb(58, 58, 58);
+    width: 65%;
+    height: auto;
+}
+center > h1 {
+    border-bottom: lightgray 2px solid;
+    padding-bottom: 20px;
+    font-family: Impact;
+    width: 40%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.jumbotron{
+    background-color: #FFFFFF!important;
+    margin-top: 4%;
+}
+.jumbotron > h1 {
+    font-size: xx-large;
+}
+.carousel-inner {
+    border-radius: 10%;
+}
