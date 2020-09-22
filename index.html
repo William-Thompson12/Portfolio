@@ -6,46 +6,37 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body data-spy="scroll" data-target="navtop">
 <div class="content">
   <header>
-    <div id="navtop" class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#home">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#bio">About me</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Contacts
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://github.com/William-Thompson12" target="_blank">Github</a>
-            <a class="dropdown-item" href="https://www.linkedin.com/in/william-thompson-04046a1a0/?challengeId=AQE23_qMTEQaRwAAAXSxsKI6iDKFLjFpzxev8hMbGn7cTmkXu_rCCFqtt7rEnyZmZlN-YzVtMn__swoE8MPdTtt9Be8MJujfjA&submissionId=106dc568-55dc-3616-a7cd-9e0f81f4c430" target="_blank">Linkedin</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Email</a>
-          </div>
-        </li>
-      </ul>
+  <div class="wrapper">
+    <div class="sidebar">
+        <h2>Welcome</h2>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i>Projects</a></li>
+            <li><a href="#bio"><i class="fas fa-address-card"></i>About</a></li>
+            <li><a href="#contact"><i class="fas fa-address-book"></i>Contact</a></li>
+        </ul> 
+        <div class="social_media">
+          <a href="https://www.linkedin.com/in/william-thompson-04046a1a0/?challengeId=AQE23_qMTEQaRwAAAXSxsKI6iDKFLjFpzxev8hMbGn7cTmkXu_rCCFqtt7rEnyZmZlN-YzVtMn__swoE8MPdTtt9Be8MJujfjA&submissionId=106dc568-55dc-3616-a7cd-9e0f81f4c430" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/William-Thompson12" target="_blank"><i class="fab fa-github-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-  </nav>
 </header>
 <div class="main-content">
   <div id="home" class="jumbotron jumbotron-fluid">
     <div class="row">
-      <div class="col-7">
+      <div class="col-2">
+      </div>
+      <div class="col-5">
         <h1 class="display-4">William Thompson</h1>
         <p class="lead">Testing testy tester</p>
         <hr class="my-4">
+        <a id="contactButton" href="#contact">Contact Me</a>
       </div>
       <div id="profile-pic-bc" class="col-4">
         <img id="profile-pic" src="img/download.jpeg">
@@ -55,7 +46,7 @@
 
   <div id="projects" class="projects">
     <center>
-      <h1>Projects</h1> 
+      <h1>Projects</h1>
     </center> 
     <div class="row" 
     style="
@@ -113,17 +104,20 @@
 
     <div class="bio" id="bio">
       <center>
-        <h1>About Me</h1> 
+        <h1>About</h1> 
       </center> 
       <div class="row">
-        <div class="col-4">
+        <div class="col-2">
+        </div>
+        <div class="col-3">
           <div id="list-project" class="list-group">
             <a class="list-group-item list-group-item-action" href="#list-item-1">Experiance </a>
             <a class="list-group-item list-group-item-action" href="#list-item-2">Education </a>
             <a class="list-group-item list-group-item-action" href="#list-item-3">Hobbies </a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Skills </a>
           </div>
         </div>
-        <div id="bio-text" class="col-7">
+        <div id="bio-text" class="col-6">
           <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
             <h4 id="list-item-1">Experiance</h4>
             <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, 
@@ -139,11 +133,34 @@
             <p>which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, 
             when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
             </p>
+            <hr>
+            <h4 id="list-item-4">Skills</h4>
+            <ul>
+              <li>Deep 3's</li>
+              <li>Trolling Paul George</li>
+              <li>Rapping</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  
+    <div id="contact" class="contact">
+      <center>
+        <h1>Conacts</h1> 
+      </center>
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8">
+          <ul id="contact-links">
+            <li><a href="https://www.linkedin.com/in/william-thompson-04046a1a0/?challengeId=AQE23_qMTEQaRwAAAXSxsKI6iDKFLjFpzxev8hMbGn7cTmkXu_rCCFqtt7rEnyZmZlN-YzVtMn__swoE8MPdTtt9Be8MJujfjA&submissionId=106dc568-55dc-3616-a7cd-9e0f81f4c430" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+            <li><a href="https://github.com/William-Thompson12" target="_blank"><i class="fab fa-github-square"></i>Github</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+            <li><a href="#"><i class="fas fa-envelope-square"></i>Email</a></li>
+          </ul> 
+        </div>
+      </div>
+    </div>
     
   </div>
 </div>
